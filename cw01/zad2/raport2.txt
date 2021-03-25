@@ -1,0 +1,54 @@
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.020000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.000000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.000000
+ sys time:  0.030000

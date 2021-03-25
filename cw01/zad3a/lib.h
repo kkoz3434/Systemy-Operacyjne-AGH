@@ -1,0 +1,12 @@
+int read_and_print(char *name);
+int count_lines(FILE *f);
+char **merge_two(char *name1, char *name2);
+FILE* merge_two_tmp_file(char* name1, char* name2);
+int insert_into_main_arr(char*** arr, FILE* tmp,int arr_size);
+char ***merge_all(int argc, char **args) ;
+void print_block(char **arr);
+void print_all(char ***arr);
+void delete_line(char **arr, int to_delete);
+void delete_pair(char ***arr, int to_delete);
+char ***create_table(int argc);
+void merge_two_tmp_file_void(char* name1, char* name2);

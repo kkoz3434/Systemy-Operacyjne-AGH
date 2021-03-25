@@ -1,0 +1,575 @@
+
+ Optimization -O
+
+
+ ## STATIC ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.000000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.000000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.000000
+ sys time:  0.040000
+
+ ## SHARED ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.000000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.020000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.000000
+ sys time:  0.040000
+
+ Optimization -O1
+
+
+ ## STATIC ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.000000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.000000
+ sys time:  0.030000
+
+ ## SHARED ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.010000
+ sys time:  0.010000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.010000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.000000
+ sys time:  0.030000
+
+ Optimization -O2
+
+
+ ## STATIC ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.020000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.010000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.010000
+ sys time:  0.030000
+
+ ## SHARED ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.000000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.010000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.020000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.000000
+ sys time:  0.030000
+
+ Optimization -O3
+
+
+ ## STATIC ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.010000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.020000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.000000
+ sys time:  0.040000
+
+ ## SHARED ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.010000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.010000
+ sys time:  0.030000
+
+ Optimization -Os
+
+
+ ## STATIC ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.000000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.020000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.030000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.030000
+ sys time:  0.010000
+
+ ## SHARED ## 
+
+
+ Short files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.000000
+ sys time:  0.030000
+
+
+ Medium files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.000000
+
+ # merge_files #
+real time:  0.030000
+user time:  0.010000
+ sys time:  0.010000
+
+
+ Long files (100 / 500/ 2000)
+
+ # merge_files #
+real time:  0.010000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+ # merge_files #
+real time:  0.040000
+user time:  0.010000
+ sys time:  0.030000

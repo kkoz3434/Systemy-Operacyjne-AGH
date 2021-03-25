@@ -1,0 +1,11 @@
+
+ Czas dla funckji systemowych 
+real time:  74.210000
+user time:  4.320000
+ sys time:  69.790000
+
+######
+Czas dla funckji bibliotecznej: 
+real time:  0.820000
+user time:  0.600000
+ sys time:  0.140000
