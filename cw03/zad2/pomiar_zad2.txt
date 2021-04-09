@@ -1,0 +1,44 @@
+
+ Short files (100 / 500/ 2000)
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.010000
+
+real time:  0.070000
+user time:  0.000000
+ sys time:  0.000000
+
+real time:  0.140000
+user time:  0.000000
+ sys time:  0.010000
+
+
+
+ Medium files (100 / 500/ 2000)
+real time:  0.020000
+user time:  0.000000
+ sys time:  0.000000
+
+real time:  0.060000
+user time:  0.000000
+ sys time:  0.030000
+
+real time:  0.130000
+user time:  0.000000
+ sys time:  0.010000
+
+
+
+ Long files (100 / 500/ 2000)
+real time:  0.070000
+user time:  0.000000
+ sys time:  0.000000
+
+real time:  0.070000
+user time:  0.000000
+ sys time:  0.030000
+
+real time:  0.200000
+user time:  0.000000
+ sys time:  0.040000
+

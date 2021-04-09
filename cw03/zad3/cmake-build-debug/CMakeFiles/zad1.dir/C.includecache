@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/4 semestr/sysopy3lab/zad3/main.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+errno.h
+-
+wait.h
+-
+dirent.h
+-
+sys/stat.h
+-
+string.h
+-
+

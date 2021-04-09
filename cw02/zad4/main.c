@@ -255,7 +255,7 @@ int main(int argc, char **argv) {
     if (argc != 5) {
         printf("Zla liczba argumentów!\n");
     } else {
-        sys_time(argv[1], argv[2], argv[3], argv[4]);
+        //sys_time(argv[1], argv[2], argv[3], argv[4]);
         printf("\n######\n");
         lib_time(argv[1], argv[2], argv[3], argv[4]);
     }
