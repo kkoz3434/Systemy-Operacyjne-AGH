@@ -1,0 +1,5 @@
+EXEC i FORK 
+Proces potomny dziedziczy ustawienia w przypadku wywo³ania:ignore, mask, pending.
+
+EXEC 
+Dziedziczy równie¿ oczekuj¹cy sygna³.
