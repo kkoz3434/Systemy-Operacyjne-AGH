@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3"
+CMAKE_SOURCE_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/zad3.dir/all
+all: CMakeFiles/untitled.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/zad3.dir/clean
+clean: CMakeFiles/untitled.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/zad3.dir
+# Target rules for target CMakeFiles/untitled.dir
 
 # All Build rule for target.
-CMakeFiles/zad3.dir/all:
-	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/depend
-	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target zad3"
-.PHONY : CMakeFiles/zad3.dir/all
+CMakeFiles/untitled.dir/all:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target untitled"
+.PHONY : CMakeFiles/untitled.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/zad3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/zad3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/zad3.dir/rule
+CMakeFiles/untitled.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/untitled.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/untitled.dir/rule
 
 # Convenience name for target.
-zad3: CMakeFiles/zad3.dir/rule
+untitled: CMakeFiles/untitled.dir/rule
 
-.PHONY : zad3
+.PHONY : untitled
 
 # clean rule for target.
-CMakeFiles/zad3.dir/clean:
-	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/clean
-.PHONY : CMakeFiles/zad3.dir/clean
+CMakeFiles/untitled.dir/clean:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/clean
+.PHONY : CMakeFiles/untitled.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

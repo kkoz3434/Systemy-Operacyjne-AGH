@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3"
+CMAKE_SOURCE_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles" "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles" "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named zad3
+# Target rules for targets named untitled
 
 # Build rule for target.
-zad3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zad3
-.PHONY : zad3
+untitled: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 untitled
+.PHONY : untitled
 
 # fast build rule for target.
-zad3/fast:
-	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/build
-.PHONY : zad3/fast
+untitled/fast:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
+.PHONY : untitled/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/main.c.o
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/main.c.i
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/main.c.s
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -156,9 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... zad3"
+	@echo "... rebuild_cache"
+	@echo "... untitled"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

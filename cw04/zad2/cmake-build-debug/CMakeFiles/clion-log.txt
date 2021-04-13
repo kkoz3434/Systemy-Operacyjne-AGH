@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2"
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/d/4 semestr/sysopy/sysopy_git/cw04/zad2"
 -- The C compiler identification is GNU 9.3.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
@@ -8,4 +8,4 @@
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug
+-- Build files have been written to: /mnt/d/4 semestr/sysopy/sysopy_git/cw04/zad2/cmake-build-debug
