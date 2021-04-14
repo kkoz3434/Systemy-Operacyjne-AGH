@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2"
+CMAKE_SOURCE_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles" "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles" "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named zad3.a
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled
-.PHONY : untitled
+zad3.a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zad3.a
+.PHONY : zad3.a
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+zad3.a/fast:
+	$(MAKE) -f CMakeFiles/zad3.a.dir/build.make CMakeFiles/zad3.a.dir/build
+.PHONY : zad3.a/fast
 
-main.o: main.c.o
+#=============================================================================
+# Target rules for targets named zad3
 
-.PHONY : main.o
+# Build rule for target.
+zad3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zad3
+.PHONY : zad3
+
+# fast build rule for target.
+zad3/fast:
+	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/build
+.PHONY : zad3/fast
+
+catcher.o: catcher.c.o
+
+.PHONY : catcher.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.o
-.PHONY : main.c.o
+catcher.c.o:
+	$(MAKE) -f CMakeFiles/zad3.a.dir/build.make CMakeFiles/zad3.a.dir/catcher.c.o
+.PHONY : catcher.c.o
 
-main.i: main.c.i
+catcher.i: catcher.c.i
 
-.PHONY : main.i
+.PHONY : catcher.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.i
-.PHONY : main.c.i
+catcher.c.i:
+	$(MAKE) -f CMakeFiles/zad3.a.dir/build.make CMakeFiles/zad3.a.dir/catcher.c.i
+.PHONY : catcher.c.i
 
-main.s: main.c.s
+catcher.s: catcher.c.s
 
-.PHONY : main.s
+.PHONY : catcher.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.s
-.PHONY : main.c.s
+catcher.c.s:
+	$(MAKE) -f CMakeFiles/zad3.a.dir/build.make CMakeFiles/zad3.a.dir/catcher.c.s
+.PHONY : catcher.c.s
+
+sender.o: sender.c.o
+
+.PHONY : sender.o
+
+# target to build an object file
+sender.c.o:
+	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/sender.c.o
+.PHONY : sender.c.o
+
+sender.i: sender.c.i
+
+.PHONY : sender.i
+
+# target to preprocess a source file
+sender.c.i:
+	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/sender.c.i
+.PHONY : sender.c.i
+
+sender.s: sender.c.s
+
+.PHONY : sender.s
+
+# target to generate assembly for a file
+sender.c.s:
+	$(MAKE) -f CMakeFiles/zad3.dir/build.make CMakeFiles/zad3.dir/sender.c.s
+.PHONY : sender.c.s
 
 # Help Target
 help:
@@ -156,12 +196,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... untitled"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... edit_cache"
+	@echo "... zad3.a"
+	@echo "... zad3"
+	@echo "... catcher.o"
+	@echo "... catcher.i"
+	@echo "... catcher.s"
+	@echo "... sender.o"
+	@echo "... sender.i"
+	@echo "... sender.s"
 .PHONY : help
 
 

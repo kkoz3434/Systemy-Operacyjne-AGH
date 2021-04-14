@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/4 semestr/sysopy/sysopy4lab/zad3/catcher.c
+stdio.h
+-
+unistd.h
+-
+signal.h
+-
+stdlib.h
+-
+string.h
+-
+

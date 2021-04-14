@@ -1,13 +1,21 @@
-CC = gcc -Wall -g
+CC = gcc
 
-compile: zad
 
-zad: main.c
-	$(CC) main.c -o zad1
+
+compile:
+	$(CC) catcher.c -o catcher
+	$(CC) sender.c -o sender
 all:
 	make compile
-	./zad1
+	echo " KILL "
+	./catcher kill_mode &
+	./sender kill_mode 10000
+	echo " SIGRT "
+	./catcher sigrt_mode &
+	./sender sigrt_mode 10000
+	echo " QUEUE "
+	./catcher queue_mode &
+	./sender queue_mode 10000
 	make clean
-
 clean:
-	rm -f zad1 child
+	rm -f catcher sender
