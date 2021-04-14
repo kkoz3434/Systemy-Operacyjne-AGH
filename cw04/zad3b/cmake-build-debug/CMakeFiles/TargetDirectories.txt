@@ -1,0 +1,4 @@
+/mnt/d/4 semestr/sysopy/sysopy4lab/zad3b/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/4 semestr/sysopy/sysopy4lab/zad3b/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/4 semestr/sysopy/sysopy4lab/zad3b/cmake-build-debug/CMakeFiles/zad3.a.dir
+/mnt/d/4 semestr/sysopy/sysopy4lab/zad3b/cmake-build-debug/CMakeFiles/zad3.dir
