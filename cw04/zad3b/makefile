@@ -8,8 +8,11 @@ compile:
 all:
 	make compile
 	echo " KILL "
-	./catcher queue_mode &
-	./sender queue_mode 5
+	./catcher kill_mode &
+	./sender kill_mode 5
+	echo " SIGRT" 
+	./catcher sigrt_mode &
+	./sender sigrt_mode 5
 
 	make clean
 clean:

@@ -1,0 +1,6 @@
+c1 = ps -aux | grep root
+c2 = ps -aux
+c3 = grep root
+c4 = ls -al
+c5 = wc -l
+c2 | c3

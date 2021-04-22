@@ -10,4 +10,4 @@ all:
 	make clean
 
 clean:
-	rm -f zad1 child
+	rm -f zad1 
