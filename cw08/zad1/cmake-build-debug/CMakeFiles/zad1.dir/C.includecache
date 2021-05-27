@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/kkoz34/Dysk lokalny/4 semestr/sysopy/sysopy8lab/zad1/main.c
+stdio.h
+-
+pthread.h
+-
+string.h
+-
+sys/times.h
+-
+fcntl.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/time.h
+-
+

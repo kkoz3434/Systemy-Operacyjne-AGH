@@ -1,0 +1,3 @@
+/media/kkoz34/Dysk lokalny/4 semestr/sysopy/sysopy8lab/zad1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/kkoz34/Dysk lokalny/4 semestr/sysopy/sysopy8lab/zad1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/kkoz34/Dysk lokalny/4 semestr/sysopy/sysopy8lab/zad1/cmake-build-debug/CMakeFiles/zad1.dir

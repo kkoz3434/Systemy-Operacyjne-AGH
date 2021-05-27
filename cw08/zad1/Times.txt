@@ -1,0 +1,432 @@
+./main 2 block body.pgm body_negative.pgm
+block
+Method: BLOCK
+Threads amount: 2
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1830274816, time: 0.000360
+1 Thread_ID : 1821882112, time: 0.000353
+Total time 0.000598
+
+
+./main 6 block body.pgm body_negative.pgm
+block
+Method: BLOCK
+Threads amount: 6
+## PRINTING THREADS TIMES:
+0 Thread_ID : -426924288, time: 0.000163
+1 Thread_ID : -435316992, time: 0.000160
+2 Thread_ID : -443709696, time: 0.000158
+3 Thread_ID : -452102400, time: 0.000129
+4 Thread_ID : -460495104, time: 0.000140
+5 Thread_ID : -468887808, time: 0.000150
+Total time 0.000394
+
+
+./main 12 block body.pgm body_negative.pgm
+block
+Method: BLOCK
+Threads amount: 12
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1270667008, time: 0.000134
+1 Thread_ID : 1262274304, time: 0.000112
+2 Thread_ID : 1253881600, time: 0.000078
+3 Thread_ID : 1245488896, time: 0.000075
+4 Thread_ID : 1237096192, time: 0.000075
+5 Thread_ID : 1228703488, time: 0.000116
+6 Thread_ID : 1220310784, time: 0.000106
+7 Thread_ID : 1211918080, time: 0.000079
+8 Thread_ID : 1203525376, time: 0.000132
+9 Thread_ID : 1195132672, time: 0.000145
+10 Thread_ID : 1186739968, time: 0.000103
+11 Thread_ID : 1178347264, time: 0.000108
+Total time 0.000502
+
+
+./main 18 block body.pgm body_negative.pgm
+block
+Method: BLOCK
+Threads amount: 18
+## PRINTING THREADS TIMES:
+0 Thread_ID : 446928640, time: 0.000098
+1 Thread_ID : 438535936, time: 0.000081
+2 Thread_ID : 430143232, time: 0.000076
+3 Thread_ID : 421750528, time: 0.000077
+4 Thread_ID : 413357824, time: 0.000076
+5 Thread_ID : 404965120, time: 0.000065
+6 Thread_ID : 396572416, time: 0.000066
+7 Thread_ID : 388179712, time: 0.000052
+8 Thread_ID : 379787008, time: 0.000106
+9 Thread_ID : 371394304, time: 0.000080
+10 Thread_ID : 363001600, time: 0.000051
+11 Thread_ID : 354608896, time: 0.000059
+12 Thread_ID : 346105600, time: 0.000062
+13 Thread_ID : 268433152, time: 0.000077
+14 Thread_ID : 260040448, time: 0.000110
+15 Thread_ID : 251647744, time: 0.000101
+16 Thread_ID : 243255040, time: 0.000062
+17 Thread_ID : 234862336, time: 0.000089
+Total time 0.000443
+
+
+./main 2 block barbara.ascii.pgm barbara_negative.pgm
+block
+Method: BLOCK
+Threads amount: 2
+## PRINTING THREADS TIMES:
+0 Thread_ID : -1256331520, time: 0.000000
+1 Thread_ID : -1264724224, time: 0.000000
+Total time 0.000675
+
+
+./main 6 block barbara.ascii.pgm barbara_negative.pgm
+block
+Method: BLOCK
+Threads amount: 6
+## PRINTING THREADS TIMES:
+0 Thread_ID : -974702848, time: 0.000000
+1 Thread_ID : -983095552, time: 0.000000
+2 Thread_ID : -991488256, time: 0.000000
+3 Thread_ID : -999880960, time: 0.000001
+4 Thread_ID : -1008273664, time: 0.000000
+5 Thread_ID : -1016776960, time: 0.000000
+Total time 0.000611
+
+
+./main 12 block barbara.ascii.pgm barbara_negative.pgm
+block
+Method: BLOCK
+Threads amount: 12
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1293731584, time: 0.000000
+1 Thread_ID : 1285338880, time: 0.000000
+2 Thread_ID : 1276946176, time: 0.000000
+3 Thread_ID : 1268553472, time: 0.000000
+4 Thread_ID : 1260160768, time: 0.000000
+5 Thread_ID : 1251657472, time: 0.000000
+6 Thread_ID : 1243264768, time: 0.000001
+7 Thread_ID : 1234872064, time: 0.000000
+8 Thread_ID : 1226479360, time: 0.000001
+9 Thread_ID : 1218086656, time: 0.000001
+10 Thread_ID : 1140848384, time: 0.000000
+11 Thread_ID : 1132455680, time: 0.000000
+Total time 0.000980
+
+
+./main 18 block barbara.ascii.pgm barbara_negative.pgm
+block
+Method: BLOCK
+Threads amount: 18
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1436907264, time: 0.000001
+1 Thread_ID : 1428514560, time: 0.000000
+2 Thread_ID : 1420121856, time: 0.000000
+3 Thread_ID : 1411729152, time: 0.000000
+4 Thread_ID : 1403336448, time: 0.000000
+5 Thread_ID : 1394833152, time: 0.000000
+6 Thread_ID : 1386440448, time: 0.000000
+7 Thread_ID : 1378047744, time: 0.000000
+8 Thread_ID : 1369655040, time: 0.000000
+9 Thread_ID : 1361262336, time: 0.000000
+10 Thread_ID : 1352869632, time: 0.000000
+11 Thread_ID : 1275066112, time: 0.000000
+12 Thread_ID : 1266673408, time: 0.000000
+13 Thread_ID : 1258280704, time: 0.000000
+14 Thread_ID : 1249888000, time: 0.000000
+15 Thread_ID : 1241495296, time: 0.000001
+16 Thread_ID : 1233102592, time: 0.000000
+17 Thread_ID : 1224709888, time: 0.000000
+Total time 0.001107
+
+
+./main 2 block dla.ascii.pgm dla.ascii_negative.pgm
+block
+Method: BLOCK
+Threads amount: 2
+## PRINTING THREADS TIMES:
+0 Thread_ID : -1773267200, time: 0.000812
+1 Thread_ID : -1781659904, time: 0.000835
+Total time 0.001027
+
+
+./main 6 block dla.ascii.pgm dla.ascii_negative.pgm
+block
+Method: BLOCK
+Threads amount: 6
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1446942464, time: 0.000502
+1 Thread_ID : 1438549760, time: 0.000330
+2 Thread_ID : 1430157056, time: 0.000330
+3 Thread_ID : 1421764352, time: 0.000309
+4 Thread_ID : 1413371648, time: 0.000456
+5 Thread_ID : 1404978944, time: 0.000353
+Total time 0.000737
+
+
+./main 12 block dla.ascii.pgm dla.ascii_negative.pgm
+block
+Method: BLOCK
+Threads amount: 12
+## PRINTING THREADS TIMES:
+0 Thread_ID : -760555776, time: 0.000254
+1 Thread_ID : -768948480, time: 0.000238
+2 Thread_ID : -777341184, time: 0.000190
+3 Thread_ID : -785733888, time: 0.000205
+4 Thread_ID : -794126592, time: 0.000210
+5 Thread_ID : -802519296, time: 0.000230
+6 Thread_ID : -810912000, time: 0.000209
+7 Thread_ID : -819304704, time: 0.000195
+8 Thread_ID : -827697408, time: 0.000225
+9 Thread_ID : -836090112, time: 0.000192
+10 Thread_ID : -844482816, time: 0.000192
+11 Thread_ID : -852875520, time: 0.000252
+Total time 0.000494
+
+
+./main 18 block dla.ascii.pgm dla.ascii_negative.pgm
+block
+Method: BLOCK
+Threads amount: 18
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1717679872, time: 0.000189
+1 Thread_ID : 1709287168, time: 0.000166
+2 Thread_ID : 1700894464, time: 0.000133
+3 Thread_ID : 1692501760, time: 0.000127
+4 Thread_ID : 1684109056, time: 0.000152
+5 Thread_ID : 1675716352, time: 0.000137
+6 Thread_ID : 1667323648, time: 0.000166
+7 Thread_ID : 1658930944, time: 0.000157
+8 Thread_ID : 1650538240, time: 0.000158
+9 Thread_ID : 1642145536, time: 0.000149
+10 Thread_ID : 1633752832, time: 0.000212
+11 Thread_ID : 1625360128, time: 0.000236
+12 Thread_ID : 1616967424, time: 0.000177
+13 Thread_ID : 1608574720, time: 0.000202
+14 Thread_ID : 1600182016, time: 0.000210
+15 Thread_ID : 1591789312, time: 0.000185
+16 Thread_ID : 1583396608, time: 0.000174
+17 Thread_ID : 1574893312, time: 0.000201
+Total time 0.000444
+
+
+./main 2 block glassware_noisy.ascii.pgm glassware_negative.pgm
+block
+Method: BLOCK
+Threads amount: 2
+## PRINTING THREADS TIMES:
+0 Thread_ID : -1392994560, time: 0.000153
+1 Thread_ID : -1401387264, time: 0.000156
+Total time 0.000387
+
+
+./main 6 block glassware_noisy.ascii.pgm glassware_negative.pgm
+block
+Method: BLOCK
+Threads amount: 6
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1173059328, time: 0.000083
+1 Thread_ID : 1164666624, time: 0.000082
+2 Thread_ID : 1156273920, time: 0.000085
+3 Thread_ID : 1147881216, time: 0.000059
+4 Thread_ID : 1139488512, time: 0.000060
+5 Thread_ID : 1131095808, time: 0.000056
+Total time 0.000263
+
+
+./main 12 block glassware_noisy.ascii.pgm glassware_negative.pgm
+block
+Method: BLOCK
+Threads amount: 12
+## PRINTING THREADS TIMES:
+0 Thread_ID : -837912832, time: 0.000062
+1 Thread_ID : -846305536, time: 0.000058
+2 Thread_ID : -854698240, time: 0.000056
+3 Thread_ID : -863090944, time: 0.000033
+4 Thread_ID : -871483648, time: 0.000032
+5 Thread_ID : -879876352, time: 0.000051
+6 Thread_ID : -888269056, time: 0.000065
+7 Thread_ID : -896661760, time: 0.000048
+8 Thread_ID : -1039272192, time: 0.000056
+9 Thread_ID : -905054464, time: 0.000067
+10 Thread_ID : -913557760, time: 0.000044
+11 Thread_ID : -921950464, time: 0.000058
+Total time 0.000295
+
+
+./main 18 block glassware_noisy.ascii.pgm glassware_negative.pgm
+block
+Method: BLOCK
+Threads amount: 18
+## PRINTING THREADS TIMES:
+0 Thread_ID : -347506944, time: 0.000043
+1 Thread_ID : -355899648, time: 0.000024
+2 Thread_ID : -364292352, time: 0.000045
+3 Thread_ID : -372685056, time: 0.000024
+4 Thread_ID : -381077760, time: 0.000024
+5 Thread_ID : -389470464, time: 0.000026
+6 Thread_ID : -469764352, time: 0.000025
+7 Thread_ID : -478157056, time: 0.000031
+8 Thread_ID : -486549760, time: 0.000024
+9 Thread_ID : -494942464, time: 0.000026
+10 Thread_ID : -503335168, time: 0.000031
+11 Thread_ID : -511727872, time: 0.000037
+12 Thread_ID : -520120576, time: 0.000025
+13 Thread_ID : -528513280, time: 0.000023
+14 Thread_ID : -536905984, time: 0.000024
+15 Thread_ID : -545298688, time: 0.000036
+16 Thread_ID : -553691392, time: 0.000022
+17 Thread_ID : -562084096, time: 0.000034
+Total time 0.000301
+
+
+./main 2 numbers body.pgm body_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 2
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1971447552, time: 0.000901
+1 Thread_ID : 1963054848, time: 0.001223
+Total time 0.001080
+
+
+./main 6 numbers body.pgm body_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 6
+## PRINTING THREADS TIMES:
+0 Thread_ID : 742405888, time: 0.000805
+1 Thread_ID : 734013184, time: 0.000885
+2 Thread_ID : 725620480, time: 0.000972
+3 Thread_ID : 717227776, time: 0.001310
+4 Thread_ID : 708835072, time: 0.001075
+5 Thread_ID : 700442368, time: 0.000909
+Total time 0.001014
+
+
+./main 12 numbers body.pgm body_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 12
+## PRINTING THREADS TIMES:
+0 Thread_ID : -755906816, time: 0.001495
+1 Thread_ID : -764299520, time: 0.001743
+2 Thread_ID : -772692224, time: 0.001548
+3 Thread_ID : -781084928, time: 0.001583
+4 Thread_ID : -789477632, time: 0.001623
+5 Thread_ID : -797870336, time: 0.001646
+6 Thread_ID : -806263040, time: 0.001658
+7 Thread_ID : -814655744, time: 0.002036
+8 Thread_ID : -823048448, time: 0.001496
+9 Thread_ID : -831441152, time: 0.001412
+10 Thread_ID : -839833856, time: 0.001352
+11 Thread_ID : -848226560, time: 0.001243
+Total time 0.001621
+
+
+./main 18 numbers body.pgm body_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 18
+## PRINTING THREADS TIMES:
+0 Thread_ID : -1810520320, time: 0.001535
+1 Thread_ID : -1818913024, time: 0.001570
+2 Thread_ID : -1827305728, time: 0.001508
+3 Thread_ID : -1835698432, time: 0.001857
+4 Thread_ID : -1844091136, time: 0.001523
+5 Thread_ID : -1852483840, time: 0.001628
+6 Thread_ID : -1860876544, time: 0.001665
+7 Thread_ID : -1869269248, time: 0.001824
+8 Thread_ID : -1877661952, time: 0.001673
+9 Thread_ID : -1886054656, time: 0.001585
+10 Thread_ID : -1894447360, time: 0.001728
+11 Thread_ID : -1902840064, time: 0.001456
+12 Thread_ID : -1911232768, time: 0.001418
+13 Thread_ID : -1919625472, time: 0.001035
+14 Thread_ID : -1928018176, time: 0.001130
+15 Thread_ID : -1936410880, time: 0.001341
+16 Thread_ID : -1944803584, time: 0.001239
+17 Thread_ID : -1953196288, time: 0.000912
+Total time 0.001783
+
+
+./main 2 numbers barbara.ascii.pgm barbara_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 2
+## PRINTING THREADS TIMES:
+0 Thread_ID : -906418432, time: 0.000000
+1 Thread_ID : -914811136, time: 0.000000
+Total time 0.000146
+
+
+./main 6 numbers barbara.ascii.pgm barbara_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 6
+## PRINTING THREADS TIMES:
+0 Thread_ID : 1092818688, time: 0.000000
+1 Thread_ID : 1084425984, time: 0.000000
+2 Thread_ID : 1076033280, time: 0.000000
+3 Thread_ID : 1067640576, time: 0.000000
+4 Thread_ID : 1059137280, time: 0.000000
+5 Thread_ID : 1050744576, time: 0.000000
+Total time 0.000124
+
+
+./main 12 numbers barbara.ascii.pgm barbara_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 12
+## PRINTING THREADS TIMES:
+0 Thread_ID : -736270592, time: 0.000000
+1 Thread_ID : -744663296, time: 0.000000
+2 Thread_ID : -753056000, time: 0.000000
+3 Thread_ID : -761448704, time: 0.000000
+4 Thread_ID : -769952000, time: 0.000000
+5 Thread_ID : -778344704, time: 0.000000
+6 Thread_ID : -786737408, time: 0.000000
+7 Thread_ID : -795130112, time: 0.000000
+8 Thread_ID : -872417536, time: 0.000000
+9 Thread_ID : -880810240, time: 0.000000
+10 Thread_ID : -889202944, time: 0.000001
+11 Thread_ID : -897595648, time: 0.000000
+Total time 0.000193
+
+
+./main 18 numbers barbara.ascii.pgm barbara_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 18
+## PRINTING THREADS TIMES:
+0 Thread_ID : -741628160, time: 0.000000
+1 Thread_ID : -750020864, time: 0.000000
+2 Thread_ID : -758413568, time: 0.000000
+3 Thread_ID : -766806272, time: 0.000000
+4 Thread_ID : -775309568, time: 0.000000
+5 Thread_ID : -783702272, time: 0.000000
+6 Thread_ID : -792094976, time: 0.000000
+7 Thread_ID : -872417536, time: 0.000000
+8 Thread_ID : -880810240, time: 0.000000
+9 Thread_ID : -889202944, time: 0.000000
+10 Thread_ID : -897595648, time: 0.000001
+11 Thread_ID : -905988352, time: 0.000000
+12 Thread_ID : -914381056, time: 0.000000
+13 Thread_ID : -922773760, time: 0.000000
+14 Thread_ID : -931166464, time: 0.000000
+15 Thread_ID : -939559168, time: 0.000000
+16 Thread_ID : -947951872, time: 0.000000
+17 Thread_ID : -956344576, time: 0.000000
+Total time 0.000260
+
+
+./main 2 numbers dla.ascii.pgm dla.ascii_negative.pgm
+numbers
+Method: NUMBERS 
+Threads amount: 2
+## PRINTING THREADS TIMES:
+0 Thread_ID : -831375616, time: 0.002063
+1 Thread_ID : -839768320, time: 0.002047
+Total time 0.002249
+
+
+./main 6 numbersdla.ascii.pgm dla.ascii_negative.pgm
+Wrong amount of arguments!
